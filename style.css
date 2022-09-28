@@ -2,32 +2,30 @@
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
-    flex-direction: column
-}
-
-.header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 150px;
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
 }
 
 .title {
     display: flex;
     font-size: 24px;
     font-weight: 150;
+    color: white;
+    margin-left: 100px;
 }
 
 li {
-    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 a ,
 ul {
     text-decoration: none;
-    color: Black;
+    color: white;
     display: flex;
-    gap: 8px;
+    gap: 24px;
     font-size: 14px;
 }
 
@@ -37,9 +35,57 @@ img {
 }
 
 button {
-    flex: 1;
-    max-width: 80px;
-    font-size: 16px;
+    font-size: 18px;
     background-color: #3882F6; 
     color: white;
+    display: flex;
+    padding: 0 30px;
+    font-weight: 100;
+}
+
+.opening {
+    font-size: 48px;
+    font-weight: 100;
+    color: purple;
+}
+
+.text {
+    font-size: 18px;
+    margin-bottom: 8px;
+    color: purple;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.header {
+    background-color: #1F2937;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+    gap: 400px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-bottom: 18px;
+}
+
+.middletitle {
+    Font-Size: 48px;
+    font-weight: 500;
+}
+
+.middle {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.middlecontainer {
+    margin-top: 18px;
 }
