@@ -29,30 +29,32 @@ ul {
     font-size: 14px;
 }
 
-img {
-    width: 300px;
+.hero>img {
+    width: 400px;
     height: auto;
 }
 
 button {
     font-size: 18px;
     background-color: #3882F6; 
+    border-color: 0;
+    border-radius: 5px;
     color: white;
-    display: flex;
-    padding: 0 30px;
+    padding: 0px 24px;
     font-weight: 100;
+    align-items: center;
 }
 
 .opening {
     font-size: 48px;
     font-weight: 100;
-    color: purple;
+    color: white;
 }
 
-.text {
+#text {
     font-size: 18px;
     margin-bottom: 8px;
-    color: purple;
+    color: white;
 }
 
 .container {
@@ -64,7 +66,6 @@ button {
     padding: 32px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
     gap: 400px;
 }
 
@@ -74,6 +75,8 @@ button {
     align-items: center;
     gap: 100px;
     margin-bottom: 18px;
+    background-color: #1F2937;
+    padding: 100px;
 }
 
 .middletitle {
@@ -83,9 +86,90 @@ button {
 
 .middle {
     display: flex;
-    justify-content: space-evenly;
+    align-items: center;
+    padding: 16px 8px;
+    gap: 50px;
 }
 
 .middlecontainer {
     margin-top: 18px;
+}
+
+.info>img {
+    border: 5px solid blue;
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.middle ,
+.text {
+    display: flex;
+    justify-content: center;
+    padding: 12px 18px;
+}
+
+.fourth {
+    background-color: #E5E7EB;
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.fourthtext {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+
+.fourthcontainer {
+    max-width: 800px;
+}
+
+.quote {
+    justify-content: flex-end;
+    display: flex;
+    padding: 8px 0;
+    font-weight: 300;
+}
+
+.last {
+    padding: 30px 80px;
+    margin: 80px 200px;
+    display: flex;
+    border-radius: 5px;
+    border-color: none;
+    background-color: #3882F6;
+    justify-content: space-between;
+}
+
+.lasttext {
+    text-align: left;
+}
+
+h3 {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: none;
+    margin-bottom: 0;
+}
+
+.lasttext p {
+    margin-top: 0;
+    font-style: italic;
+    font-size: 8px;
+}
+
+.lastbutton button {
+    margin: 20px 200px 20px 0px;
+    border-radius: 8px;
+    border-color: white;
+}
+
+.footer {
+    padding: 30px 0px;
+    background-color: #1F2937;
+    color: white;
 }
